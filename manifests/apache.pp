@@ -1,4 +1,4 @@
-class profile::apache(
+class v_profile_apache::apache(
   Boolean $default_vhost = false,
   Hash $apache_vhost_servers,
 #  Integer $port          = 80,
